@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.masthead{
+  border: 2px solid red;
+}
+
+.main-content{
+  border: 2px solid blue;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+    "text1 text2 text2"
+    "link1 link2 link3"
+
+}
+
+.p1{
+  grid-area: text1;
+  border: 2px solid green;
+}
+
+.p2{
+  grid-area: text2;
+  border: 2px solid orange;
+}
+
+.link1{
+  grid-area: link1;
+  border: 2px solid black;
+}
+
+.link2{
+  grid-area: link2;
+  border: 2px solid pink;
+}
+
+.link3{
+  grid-area: link3;
+  border: 2px solid yellow;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+}
