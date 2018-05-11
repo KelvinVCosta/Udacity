@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="news@localhost" uuid="53638f82-2719-4ce8-80f5-8c71ce8daad1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/news</jdbc-url>
+      <default-dialect>PostgreSQL</default-dialect>
+    </data-source>
+  </component>
+</project>
