@@ -12,11 +12,9 @@ class View:
         print "\n"
         for row in entries:
             if option == 0:
-                print "Top 3 articles"
                 print "Title: " + row[0]
                 print str(row[1]) + " views\n"
             elif option == 1:
-                print "The authors"
                 print "Author: " + row[0]
                 print str(row[1]) + " views\n"
             elif option ==2:
@@ -33,7 +31,7 @@ class View:
             option = int(raw_input('''Select an option:
             0 - The 3 most popular articles of all times
             1 - The most popular authors
-            2 - Which logs have more than 1% of errors
+            2 - Which days have more than 1% of errors logs
             3 - Exit
             Option: '''))
 
