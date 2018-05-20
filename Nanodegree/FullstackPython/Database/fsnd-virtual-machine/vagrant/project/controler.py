@@ -1,3 +1,4 @@
+import sys
 import psycopg2 as psg2
 from param import CONN_STRING
 
@@ -6,7 +7,13 @@ class Connector:
 
     def __init__(self):
         print "\nConnecting to database..."
-        self.conn = psg2.connect(CONN_STRING)
+        try:
+            self.conn = psg2.connect(CONN_STRING)
+        except psg2.Error as ex:
+            print "Something is wrong.... Unable to connect to the database...."
+            print ex.pgerror
+            print ex.diag.message_detail
+            sys.exit(1)
 
     def execute(self, query):
         print "\nGetting cursor..."
@@ -18,16 +25,6 @@ class Connector:
         return entries
 
     def __del__(self):
-        print "Disconnecting from the database.... " \
-              "\n See ya!"
+        print "All done...."
+        print "Disconnecting from the database.... "
         self.conn.close()
-
-
-# queries = ['SELECT name FROM authors;',
-#            'SELECT title FROM articles;']
-# conn = Connector()
-# entries = conn.execute(queries[0])
-# for entry in entries:
-#     for data in entry:
-#         res = ''.join(data)
-#         print " " + res + " "
