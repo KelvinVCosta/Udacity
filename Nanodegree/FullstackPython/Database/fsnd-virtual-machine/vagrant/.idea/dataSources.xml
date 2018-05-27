@@ -7,5 +7,16 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/news</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="restaurantmenu" uuid="f5ad419e-6f38-4ccf-9a98-3cc7cfdd23d9">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>SQLite</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Desenvolvimento\Estudos\Udacity\Nanodegree\FullstackPython\Database\fsnd-virtual-machine\vagrant\project\catalogoDeItens\restaurantmenu.db</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

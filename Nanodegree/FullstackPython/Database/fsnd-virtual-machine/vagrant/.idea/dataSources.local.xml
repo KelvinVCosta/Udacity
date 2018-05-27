@@ -18,5 +18,8 @@
         <auth-type>PASSWORD</auth-type>
       </ssh-properties>
     </data-source>
+    <data-source name="restaurantmenu" uuid="f5ad419e-6f38-4ccf-9a98-3cc7cfdd23d9">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
   </component>
 </project>
