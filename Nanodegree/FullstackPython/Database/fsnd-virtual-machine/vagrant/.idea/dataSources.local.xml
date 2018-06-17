@@ -21,5 +21,8 @@
     <data-source name="restaurantmenu" uuid="f5ad419e-6f38-4ccf-9a98-3cc7cfdd23d9">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
     </data-source>
+    <data-source name="restaurantmenu [2]" uuid="75a2e718-3c10-48f3-93a8-91152ab9262b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
   </component>
 </project>

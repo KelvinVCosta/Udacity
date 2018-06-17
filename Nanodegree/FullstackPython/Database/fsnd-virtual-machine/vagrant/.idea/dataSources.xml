@@ -18,5 +18,16 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="restaurantmenu [2]" uuid="75a2e718-3c10-48f3-93a8-91152ab9262b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>SQLite</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Desenvolvimento\Estudos\Udacity\Nanodegree\FullstackPython\Database\fsnd-virtual-machine\vagrant\project\catalogoDeItens\restaurantmenu.db</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

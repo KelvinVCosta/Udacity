@@ -1,5 +1,7 @@
 import os
 import sys
+
+
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
@@ -23,7 +25,9 @@ class MenuItem(Base):
     description = Column(String(250))
     price = Column(String(8))
     course = Column(String(250))
+
     restaurant_id = Column(Integer, ForeignKey('restaurant.id'))
+
     restaurant = relationship(Restaurant)
 
 
