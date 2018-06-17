@@ -8,7 +8,7 @@ from forumdb import get_posts, add_post
 
 app = Flask(__name__)
 
-# HTML template for the forum page
+# HTML templates for the forum page
 HTML_WRAP = '''\
 <!DOCTYPE html>
 <html>
@@ -36,7 +36,7 @@ HTML_WRAP = '''\
 </html>
 '''
 
-# HTML template for an individual comment
+# HTML templates for an individual comment
 POST = '''\
     <div class=post><em class=date>%s</em><br>%s</div>
 '''
