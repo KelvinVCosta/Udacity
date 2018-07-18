@@ -15,12 +15,13 @@ def get_posts():
     c.execute(SELECT_QUERY)
     r = c.fetchall()
     db.close()
+    # r = bleach.clean(r)
     return r
 
 
 def add_post(content):
     "Add a post to the 'database' with the current timestamp."
-    bleach.clean(content)
+    content = bleach.clean(content)
     db = pg.connect(database=DBNAME)
     c = db.cursor()
     c.execute(INSERT_QUERY, (content,))

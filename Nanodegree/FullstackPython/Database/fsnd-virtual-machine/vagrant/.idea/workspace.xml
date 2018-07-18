@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b949e37f-a860-4f09-991d-b91740c8f667" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/42009333-0027-4918-bafa-bafb163bec9c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/42009333-0027-4918-bafa-bafb163bec9c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/forum.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/forum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/forumdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/forumdb.py" afterDir="false" />
     </list>
@@ -54,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forum.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forum.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forum/forum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
               <folding>
                 <element signature="e#72#123#0" expanded="true" />
               </folding>
@@ -71,11 +66,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="forumdb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forumdb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forum/forumdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="e#37#58#0" expanded="true" />
               </folding>
@@ -146,8 +141,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/16c6e5ca-15b3-479a-8e79-8454b9d20754/console.sql" />
         <option value="$PROJECT_DIR$/catalog/templates/home.html" />
         <option value="$PROJECT_DIR$/catalog/sql/catalog.sql" />
-        <option value="$PROJECT_DIR$/forum/forum.py" />
         <option value="$PROJECT_DIR$/forum/forumdb.py" />
+        <option value="$PROJECT_DIR$/forum/forum.py" />
       </list>
     </option>
   </component>
@@ -760,22 +755,22 @@
     <entry file="file://$PROJECT_DIR$/forum/forum.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/forum/forum.py">
+    <entry file="file://$PROJECT_DIR$/forum/forumdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <element signature="e#72#123#0" expanded="true" />
+            <element signature="e#37#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forum/forumdb.py">
+    <entry file="file://$PROJECT_DIR$/forum/forum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="300">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
           <folding>
-            <element signature="e#37#58#0" expanded="true" />
+            <element signature="e#72#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
