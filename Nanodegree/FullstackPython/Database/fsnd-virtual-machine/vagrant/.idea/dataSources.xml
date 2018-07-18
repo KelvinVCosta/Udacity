@@ -7,27 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/news</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="restaurantmenu" uuid="f5ad419e-6f38-4ccf-9a98-3cc7cfdd23d9">
-      <driver-ref>sqlite.xerial</driver-ref>
+    <data-source source="LOCAL" name="forum@localhost" uuid="16c6e5ca-15b3-479a-8e79-8454b9d20754">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>SQLite</remarks>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Desenvolvimento\Estudos\Udacity\Nanodegree\FullstackPython\Database\fsnd-virtual-machine\vagrant\project\catalogoDeItens\restaurantmenu.db</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="restaurantmenu [2]" uuid="75a2e718-3c10-48f3-93a8-91152ab9262b">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>SQLite</remarks>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Desenvolvimento\Estudos\Udacity\Nanodegree\FullstackPython\Database\fsnd-virtual-machine\vagrant\project\catalogoDeItens\restaurantmenu.db</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/forum</jdbc-url>
     </data-source>
   </component>
 </project>

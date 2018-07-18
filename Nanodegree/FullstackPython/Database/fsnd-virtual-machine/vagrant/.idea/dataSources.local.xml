@@ -18,11 +18,22 @@
         <auth-type>PASSWORD</auth-type>
       </ssh-properties>
     </data-source>
-    <data-source name="restaurantmenu" uuid="f5ad419e-6f38-4ccf-9a98-3cc7cfdd23d9">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-    </data-source>
-    <data-source name="restaurantmenu [2]" uuid="75a2e718-3c10-48f3-93a8-91152ab9262b">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    <data-source name="forum@localhost" uuid="16c6e5ca-15b3-479a-8e79-8454b9d20754">
+      <database-info product="PostgreSQL" version="9.5.12" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>vagrant</user-name>
+      <introspection-schemas>forum:*</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>localhost</proxy-host>
+        <proxy-port>2222</proxy-port>
+        <user>vagrant</user>
+        <use-password>true</use-password>
+        <auth-type>PASSWORD</auth-type>
+      </ssh-properties>
     </data-source>
   </component>
 </project>

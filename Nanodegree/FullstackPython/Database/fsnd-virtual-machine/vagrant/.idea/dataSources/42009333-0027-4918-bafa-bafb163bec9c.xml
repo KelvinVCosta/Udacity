@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="news@localhost">
-  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.8">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.9">
     <root id="1">
       <ServerVersion>9.5.12</ServerVersion>
     </root>
@@ -58,7 +58,7 @@
     <schema id="13" parent="3" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-05-29.20:53:00.755</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-06-17.18:31:45.535</IntrospectionTimestamp>
       <IntrospectionStateNumber>687</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
