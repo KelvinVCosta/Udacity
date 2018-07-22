@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b949e37f-a860-4f09-991d-b91740c8f667" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/forum.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/forum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/forumdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/forumdb.py" afterDir="false" />
-    </list>
+    <list default="true" id="b949e37f-a860-4f09-991d-b91740c8f667" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +48,8 @@
       <file leaf-file-name="forum.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forum/forum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+            <state relative-caret-position="249">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="51" selection-end-column="15" />
               <folding>
                 <element signature="e#72#123#0" expanded="true" />
               </folding>
@@ -155,7 +151,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1256" />
     <option name="y" value="409" />
     <option name="width" value="1346" />
@@ -394,7 +390,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1040" height="1256" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.295764" side_tool="true" weight="0.44554454" />
@@ -524,7 +519,7 @@
           <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="505.0" y="143.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
+            <Category />
             <Category>Columns</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -646,7 +641,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="489.0" y="100.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
+            <Category />
             <Category>Columns</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -767,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forum/forum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+        <state relative-caret-position="249">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="51" selection-end-column="15" />
           <folding>
             <element signature="e#72#123#0" expanded="true" />
           </folding>
