@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e326031-fdea-478b-980f-4cf1cc2e2239" name="Default Changelist" comment="" />
+    <list default="true" id="2e326031-fdea-478b-980f-4cf1cc2e2239" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Aula1/Exercicios/olympic_medal_counts_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula1/Exercicios/olympic_medal_counts_df.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
     <session id="1960600711">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -32,13 +35,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="py" value="124" />
+          <entry key="py" value="232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="124" />
+          <entry key="Python" value="232" />
         </counts>
       </usages-collector>
     </session>
@@ -48,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aula1/Exercicios/olympic_medal_counts_df.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -89,8 +92,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1524" />
-    <option name="y" value="252" />
+    <option name="x" value="-69" />
+    <option name="y" value="163" />
     <option name="width" value="1296" />
     <option name="height" value="1040" />
   </component>
@@ -144,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.olympic_medal_counts_df">
     <configuration name="NumpyQuiz1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Intro to Data Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,8 +192,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="olympic_medal_counts_df" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Intro to Data Science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula1/Exercicios" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula1/Exercicios/olympic_medal_counts_df.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.NumpyQuiz1" />
+      <item itemvalue="Python.olympic_medal_counts_df" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.olympic_medal_counts_df" />
         <item itemvalue="Python.NumpyQuiz1" />
       </list>
     </recent_temporary>
@@ -209,16 +236,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1040" height="1256" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33673468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" sideWeight="0.4989796" weight="0.32976827" />
+      <window_info active="true" anchor="bottom" content_ui="combo" x="1366" y="0" width="1024" height="1240" id="Python Console" sideWeight="0.4989796" type="FLOATING" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50102043" side_tool="true" weight="0.32976827" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -269,8 +296,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aula1/Exercicios/olympic_medal_counts_df.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
