@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e326031-fdea-478b-980f-4cf1cc2e2239" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Aula1/Exercicios/olympic_medal_counts_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula1/Exercicios/OlympicMedals/CountsDataframe.py" afterDir="false" />
-    </list>
+    <list default="true" id="2e326031-fdea-478b-980f-4cf1cc2e2239" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,30 +23,67 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
-          <entry key="py" value="330" />
+          <entry key="py" value="631" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="330" />
+          <entry key="Python" value="631" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aula2/Exercicio1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="70" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aula2/Exercicio2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aula2/Exercicio3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="77" column="96" selection-start-line="77" selection-start-column="96" selection-end-line="77" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,6 +112,9 @@
         <option value="$PROJECT_DIR$/Aula1/PandasPlayground/DataframesIndex.py" />
         <option value="$PROJECT_DIR$/Aula1/Exercicios/OlympicMedals/CountsDataframe.py" />
         <option value="$PROJECT_DIR$/Aula1/Exercicios/OlympicMedals/MedalsAverage.py" />
+        <option value="$PROJECT_DIR$/Aula2/Exercicio1.py" />
+        <option value="$PROJECT_DIR$/Aula2/Exercicio2.py" />
+        <option value="$PROJECT_DIR$/Aula2/Exercicio3.py" />
       </list>
     </option>
   </component>
@@ -110,20 +148,7 @@
             <path>
               <item name="Intro to Data Science" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intro to Data Science" type="462c0819:PsiDirectoryNode" />
-              <item name="Aula1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intro to Data Science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intro to Data Science" type="462c0819:PsiDirectoryNode" />
-              <item name="Aula1" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intro to Data Science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intro to Data Science" type="462c0819:PsiDirectoryNode" />
-              <item name="Aula1" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="OlympicMedals" type="462c0819:PsiDirectoryNode" />
+              <item name="Aula2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,8 +314,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5259027" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5257186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -366,6 +392,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula2/Exercicio1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula2/Exercicio2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula2/Exercicio3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="77" column="96" selection-start-line="77" selection-start-column="96" selection-end-line="77" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
