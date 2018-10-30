@@ -15,5 +15,5 @@ def time_to_hour(time):
     Please return hour as an integer.
     '''
 
-    hour =  # your code here
+    hour = int(time[0:2])
     return hour
